@@ -105,7 +105,9 @@ footer form {
 }
 
 
-/* ---------- */
+/* ---------- class changes  */
+
+/*
 @media (max-width: 410px){
   body {color: red;}
 }
@@ -122,8 +124,9 @@ footer form {
   body {color: green;}
   h1 {text-decoration: underline;}
 }
-*/
+
 
 @media (monochrome) {
   body { color: black; }
 }
+*/
