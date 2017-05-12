@@ -2,4 +2,28 @@
   nav, footer, video {
     display: none;
   }
+  /* shows the href on page */
+  /*
+  a:after {
+    content: " (" attr(href) ")";
+  }
+  */
+  a[href^="http://"]:after, a[href^="https://"]:after {
+    content: " (" attr(href) ")";
+  }
+  a[href^="#"]:after {
+    content: "";
+  }
+  body {
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+  }
+  article {
+    width: 90%;
+  }
 }
+
+
+/* end media print */
