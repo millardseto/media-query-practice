@@ -1,0 +1,5 @@
+@media print {
+  nav, footer, video {
+    display: none;
+  }
+}
