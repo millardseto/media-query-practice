@@ -117,7 +117,13 @@ footer form {
 @media (min-width: 701px) and (max-width: 1100px){
   body {color: blue;}
 }
-
-@media (min-width:1101){
+/*
+@media (min-width:1101px), (orientation: landscape){
   body {color: green;}
+  h1 {text-decoration: underline;}
+}
+*/
+
+@media (monochrome) {
+  body { color: black; }
 }
